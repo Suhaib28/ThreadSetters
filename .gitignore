@@ -1,0 +1,27 @@
+﻿# Python
+backend/.venv/
+**/__pycache__/
+*.pyc
+
+# Node / Next.js
+web/node_modules/
+web/.next/
+web/.turbo/
+web/.vercel/
+web/.env*
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Raw source CSVs (you already copied processed files)
+data/brands/
+
+# keep generated data files for the backend at runtime:
+# data/catalog.csv
+# data/item_ids.json
+# data/item_vectors.npy
+# data/faiss.index
